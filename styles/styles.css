@@ -216,3 +216,47 @@ article .feature-list-tail {
     font-size: 20px;
     color: #727272;
 }
+
+/* Sponsor section---------------------------------------------------------------- */
+.sponsor-section {
+    width: 80%;
+    margin: 135px auto auto auto;
+    text-align: center;
+
+}
+
+.sponsor-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor-section .paragraph {
+    margin: 24px auto 50px auto;
+    width: 60%;
+}
+
+.sponsor-section .sponsors {
+    display: flex;
+    justify-content: space-between
+}
+
+/* Footer style------------------------------------------------------------ */
+footer {
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.copywriter {
+    width: 80%;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.copywriter p {
+    padding: 38px 250px 38px 250px;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+}
