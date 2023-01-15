@@ -162,11 +162,54 @@ article .feature-list-tail {
 }
 
 .feature-love-section .btn-orange {
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+.feature-love-section .btn-orange span {
     font-weight: 700;
     font-size: 65px;
 }
 
-.feature-love-section .btn-orange span {
-    font-weight: 500;
-    font-size: 25px;
+/* Facts style --------------------------------------------------------------------------------- */
+.some-fact {
+    width: 80%;
+    margin: 45px auto;
+}
+
+.fact-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.some-fact .paragraph {
+    width: 50%;
+}
+
+.fact-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fact-list .facts-info {
+    padding: 45px 35px 50px 35px;
+    text-align: center;
+}
+
+.facts-info h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 10px auto 5px auto;
+}
+
+.facts-info p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
 }
