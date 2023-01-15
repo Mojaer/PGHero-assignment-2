@@ -124,7 +124,7 @@ article .feature-list-tail {
     margin-left: 0px;
 }
 
-/* Love and enjoy feature----------------------------------------------------------------- */
+/* Love and enjoy feature----------------------------------------------------------------------------------------- */
 
 .feature-love-section {
     display: flex;
@@ -172,7 +172,7 @@ article .feature-list-tail {
     font-size: 65px;
 }
 
-/* Facts style --------------------------------------------------------------------------------- */
+/* Facts style ---------------------------------------------------------------------------------------------------------- */
 .some-fact {
     width: 80%;
     margin: 45px auto;
@@ -199,6 +199,9 @@ article .feature-list-tail {
 .fact-list .facts-info {
     padding: 45px 35px 50px 35px;
     text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
 }
 
 .facts-info h3 {
