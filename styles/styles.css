@@ -456,13 +456,24 @@ footer {
     }
 
     article .feature-list-head,
-    article .feature-list-tail,
+    article .feature-list-tail {
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
     .feature-list .paragraph {
         text-align: center;
     }
 
+    article .feature-list-head span {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
     .feature-list-article .btn-orange {
         margin-left: auto;
+
     }
 
     .feature-love-section {
