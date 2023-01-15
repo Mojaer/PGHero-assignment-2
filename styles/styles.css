@@ -48,12 +48,17 @@ header nav .nav-list {
     color: #131313;
 }
 
-.banner .banner-paragraph {
-    width: 60%;
-    margin: 15px auto 30px auto;
+.paragraph {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+
+}
+
+.banner .paragraph {
+    width: 60%;
+    margin: 15px auto 30px auto;
+
 
 }
 
@@ -111,10 +116,7 @@ article .feature-list-tail {
     margin-bottom: 24px;
 }
 
-.feature-list-paragraph {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
+.feature-list .paragraph {
     margin-bottom: 32px;
 }
 
@@ -123,3 +125,48 @@ article .feature-list-tail {
 }
 
 /* Love and enjoy feature----------------------------------------------------------------- */
+
+.feature-love-section {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    width: 80%;
+    margin: 85px auto;
+}
+
+.feature-love-article .feature-love-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.feature-love-details {
+    margin-top: 30px;
+}
+
+.feature-love-paragraph {
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-love-paragraph .paragraph-tittle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.feature-love-section .btn-orange {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.feature-love-section .btn-orange span {
+    font-weight: 500;
+    font-size: 25px;
+}
