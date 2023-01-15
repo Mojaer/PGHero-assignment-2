@@ -92,7 +92,7 @@ header nav .nav-list {
 .feature-list .feature-list-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 24px;
+    grid-gap: 20px;
     margin: auto .18% auto .18% auto;
 
 }
@@ -408,4 +408,154 @@ footer {
     font-size: 20px;
     color: #424242;
     text-align: center;
+}
+
+/* responsiveness-------------------------------------------------------------------------------- */
+
+@media only screen and (max-width:576px) {
+    header nav {
+        flex-direction: column;
+        padding: 5px;
+        text-align: center;
+
+    }
+
+    header nav .nav-icon {
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+
+    header nav .nav-list {
+        flex-direction: column;
+        margin-bottom: 15px;
+        text-align: center;
+
+    }
+
+    .banner .banner-tittle {
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .btn-orange {
+        font-weight: 600;
+        font-size: 15px;
+        padding: 14px;
+    }
+
+    .feature-list {
+        flex-direction: column;
+        margin: 55px auto;
+
+
+    }
+
+    .feature-list .feature-list-images {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 14px;
+    }
+
+    article .feature-list-head,
+    article .feature-list-tail,
+    .feature-list .paragraph {
+        text-align: center;
+    }
+
+    .feature-list-article .btn-orange {
+        margin-left: auto;
+    }
+
+    .feature-love-section {
+        flex-direction: column
+    }
+
+    .feature-love-article .feature-love-tittle {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .feature-love-section .btn-orange {
+        position: static;
+        margin-top: 5px;
+        font-weight: 500;
+        font-size: 15px;
+
+    }
+
+    .feature-love-section .btn-orange span {
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    .fact-tittle {
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .some-fact .paragraph {
+        text-align: center;
+        width: 100%;
+    }
+
+    .fact-list {
+        flex-direction: column
+    }
+
+    .fact-list .facts-info {
+        margin-bottom: 154px;
+    }
+
+    .sponsor-section {
+        margin: 105px auto auto auto;
+    }
+
+    .sponsor-section .sponsors {
+        flex-direction: column;
+    }
+
+    .sponsor-section .sponsors img {
+        margin-bottom: 40px;
+    }
+
+    .extra-section {
+        flex-direction: column;
+    }
+
+    .extra-section article {
+        width: 100%;
+    }
+
+    .extra-section .tittle {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .extra-section h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        padding-top: 0px;
+        padding-bottom: 100px;
+
+    }
+
+    .copywriter {
+        width: 100%;
+    }
+
+    .copywriter p {
+        font-size: 20px;
+        padding: 30px 200px 30px 200px;
+
+    }
+
+
 }
