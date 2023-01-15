@@ -59,8 +59,8 @@ header nav .nav-list {
 
 .btn-orange {
     display: block;
-    margin: auto auto 50px auto;
     padding: 24px;
+    margin: auto;
     color: #FFFFFF;
     background: #FF900E;
     border: none;
@@ -71,5 +71,55 @@ header nav .nav-list {
 
 .banner img {
     width: 80%;
-    margin-bottom: 45px;
+    margin: 50px auto 45px auto;
 }
+
+/*---------- feature list ---------------------------------------------------------------
+------------------------------ */
+.feature-list {
+    display: flex;
+    gap: 73px;
+    align-items: center;
+    width: 80%;
+    margin: 85px auto;
+}
+
+.feature-list .feature-list-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    margin: auto .18% auto .18% auto;
+
+}
+
+article .feature-list-head {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+article .feature-list-head span {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+article .feature-list-tail {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+    margin-bottom: 24px;
+}
+
+.feature-list-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.feature-list-article .btn-orange {
+    margin-left: 0px;
+}
+
+/* Love and enjoy feature----------------------------------------------------------------- */
